@@ -27,5 +27,5 @@ for (let i = 0; i < totalLines; i++) {
 
 }
 
-console.log(`Total distance between left list and right list is = ${totalDistance}`);
+console.log(`Total distance between left list and right lists is = ${totalDistance}`);
 console.log(`Similarity score between left and right lists is = ${similarityScore}`);

@@ -118,6 +118,8 @@ const wordSearchMatrix = wordSearchInput
   .split("\r\n")
   .map((row) => row.split(""));
 
-const appearancesOfXmas = countOccurrencesOfWordinX(wordSearchMatrix);
+const appearancesOfXmas = countOccurrencesOfWord(wordSearchMatrix);
+const appearancesOfMaxInX = countOccurrencesOfWordinX(wordSearchMatrix);
 
 console.log(`Occurrences of XMAS = ${appearancesOfXmas}`);
+console.log(`Occurrences of MAS in X = ${appearancesOfMaxInX}`);
